@@ -6,7 +6,7 @@ Reusable agent skills derived from workflows that have been tested in real work 
 
 ## Available skills
 
-### `dev-log-to-article` — Turn development logs into an explanatory article
+### 022 | `dev-log-to-article` — Turn development logs into an explanatory article
 
 Reads development logs, chat history, work notes, and Git changes, then restructures them into an explanatory article that other readers can learn from instead of a simple chronological record.
 
@@ -17,7 +17,7 @@ Reads development logs, chat history, work notes, and Git changes, then restruct
 
 Useful for development retrospectives, technical blogs, internal knowledge bases, and troubleshooting article drafts.
 
-### `summarize-work-session` — Create a handoff from a long work session
+### 009 | `summarize-work-session` — Create a handoff from a long work session
 
 Turns a long conversation or multi-step work session into a handoff that another person or agent can use to resume the work immediately.
 
