@@ -9,6 +9,7 @@ Reusable agent skills derived from workflows that have been tested in real work 
 | Skill | Description |
 | --- | --- |
 | `dev-log-to-article` | Turn development logs and work records into a reusable, reader-focused explanatory article. |
+| `summarize-work-session` | Summarize long work into completed results, changed artifacts, unverified items, and ordered next actions. |
 
 ## Installation
 
@@ -18,18 +19,26 @@ Use a compatible Agent Skills installer to install an individual skill from this
 npx skills add takuhirokosa/joseg-skills --skill dev-log-to-article
 ```
 
+```bash
+npx skills add takuhirokosa/joseg-skills --skill summarize-work-session
+```
+
 ## Repository structure
 
 Each skill lives in its own folder under `skills/` and includes a required `SKILL.md` file.
 
 ```text
 skills/
-└── dev-log-to-article/
+├── dev-log-to-article/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
     └── references/
         └── article-structure.md
+└── summarize-work-session/
+    ├── SKILL.md
+    └── agents/
+        └── openai.yaml
 ```
 
 ## Contributing
