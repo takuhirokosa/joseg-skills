@@ -23,3 +23,7 @@ skills/
 ```
 
 Use a compatible Agent Skills installer to list or install an individual skill from this repository.
+
+## License
+
+This repository is licensed under the GNU General Public License v3.0 only (`GPL-3.0-only`). See [LICENSE](LICENSE).
