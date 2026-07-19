@@ -32,9 +32,13 @@ Useful at the end of a long session, during a change of ownership, when handing 
 
 Use a compatible Agent Skills installer to install an individual skill from this repository.
 
+### 022 | Turn development logs into an explanatory article
+
 ```bash
 npx skills add takuhirokosa/joseg-skills --skill dev-log-to-article
 ```
+
+### 009 | Create a handoff from a long work session
 
 ```bash
 npx skills add takuhirokosa/joseg-skills --skill summarize-work-session

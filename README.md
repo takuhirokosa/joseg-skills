@@ -32,9 +32,13 @@
 
 互換性のあるAgent Skillsインストーラーから、必要なスキルを指定して導入できます。
 
+### 022｜開発ログを解説記事に変換
+
 ```bash
 npx skills add takuhirokosa/joseg-skills --skill dev-log-to-article
 ```
+
+### 009｜長時間作業を引き継ぎ要約
 
 ```bash
 npx skills add takuhirokosa/joseg-skills --skill summarize-work-session
