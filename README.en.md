@@ -6,10 +6,27 @@ Reusable agent skills derived from workflows that have been tested in real work 
 
 ## Available skills
 
-| Skill | Description |
-| --- | --- |
-| `dev-log-to-article` | Turn development logs and work records into a reusable, reader-focused explanatory article. |
-| `summarize-work-session` | Summarize long work into completed results, changed artifacts, unverified items, and ordered next actions. |
+### `dev-log-to-article` — Turn development logs into an explanatory article
+
+Reads development logs, chat history, work notes, and Git changes, then restructures them into an explanatory article that other readers can learn from instead of a simple chronological record.
+
+1. Separates directly observed facts from assumptions and unverified claims.
+2. Organizes the material into context, problem, attempts, solution, result, and lessons learned.
+3. Removes secrets, personal information, environment-specific paths, and other details that should not be published.
+4. Produces a Markdown article with a title, introduction, headings, procedures, and cautions.
+
+Useful for development retrospectives, technical blogs, internal knowledge bases, and troubleshooting article drafts.
+
+### `summarize-work-session` — Create a handoff from a long work session
+
+Turns a long conversation or multi-step work session into a handoff that another person or agent can use to resume the work immediately.
+
+1. Identifies the objective and the latest approved scope.
+2. Clearly separates completed and verified work, executed but unverified work, and work that was not started.
+3. Records changed files, URLs, branches, commits, and decisions needed to resume the task.
+4. Organizes open issues and next actions in a safe, executable order.
+
+Useful at the end of a long session, during a change of ownership, when handing work to another AI, or before resuming work on a later day.
 
 ## Installation
 
