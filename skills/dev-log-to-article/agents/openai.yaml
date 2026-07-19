@@ -1,0 +1,4 @@
+interface:
+  display_name: "開発ログを解説記事に変換"
+  short_description: "開発ログを初心者にも読める再利用可能な解説記事へ変換します"
+  default_prompt: "Use $dev-log-to-article to turn these development logs into a reusable reader-focused article."
